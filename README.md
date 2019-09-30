@@ -1,4 +1,4 @@
-### PowerBI Inventory
+### Power BI Inventory
 
  
 **##Install Power BI module**
