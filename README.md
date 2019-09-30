@@ -3,20 +3,20 @@
  
 **##Install Power BI module**
 
-```sh
+```powershell
 Install-Module -Name MicrosoftPowerBIMgmt
 ```
 
 
 **##Login Power BI**
 
-```sh
+```powershell
 Login-PowerBI
 ```
 
 **##Call Power BI API**
 
-```sh
+```powershell
 $DesktopPath = [Environment]::GetFolderPath("Desktop") +"\inventory.json" 
 $myinventory = Invoke-PowerBIRestMethod -Url "https://api.powerbi.com/v1.0/myorg/admin/Groups?%24top=2&%24expand=users,reports,dashboards,datasets,dataflows" -Method Get
 $myinventory | Out-File $DesktopPath
