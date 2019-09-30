@@ -1,20 +1,20 @@
 ### PowerBI Inventory
 
  
-**Install Power BI module**
+**##Install Power BI module**
 
 ```sh
 Install-Module -Name MicrosoftPowerBIMgmt
 ```
 
 
-**Login Power BI**
+**##Login Power BI**
 
 ```sh
 Login-PowerBI
 ```
 
-**Call Power BI API**
+**##Call Power BI API**
 
 ```sh
 $DesktopPath = [Environment]::GetFolderPath("Desktop") +"\inventory.json" 
